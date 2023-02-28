@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource
+        name="jdbc/pool_cnx"
+        
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        type="javax.sql.DataSource"
+        
+        url="jdbc:mysql://mysql1.inulogic.fr/eni"
+        username="paubetseb"
+        password="ie3Mmq!3x1"
+        
+        maxTotal="100"
+        maxIdle="30"
+        maxWaitMillis="10000"
+    />
+</Context>
